@@ -6,7 +6,7 @@ import {
   RouterProvider,
   ScrollRestoration,
 } from "react-router-dom";
-import App from "./App.jsx";
+import App from "./App1.jsx";
 import "./index.css";
 import Header from "./ui/Header.jsx";
 import NotFound from "./pages/NotFound.jsx";
@@ -21,14 +21,13 @@ import Login from "./pages/Login.jsx";
 import "react-toastify/dist/ReactToastify.css";
 import Product from "./pages/Product.jsx";
 import Success from "./pages/Success.jsx";
+import App1 from "./App1.jsx";
 
 const RootLayout = () => {
   return (
     <div>
-      <Header />
-      <ScrollRestoration />
-      <Outlet />
-      <Footer />
+     <h1>hello</h1>
+     <App1 />
     </div>
   );
 };
